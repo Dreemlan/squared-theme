@@ -1,6 +1,5 @@
 //META{"name":"Squared","description":"It's square.","author":"Dreemlan","version":"1.00"}*//
 
-
 /* FONT */
 
 	body {
@@ -274,7 +273,8 @@
 
 	.private-channels .search-bar {
 	    background-color: var(--second-color);  
-		border-radius: 0px;	
+		border-radius: 0px;
+		border: none;
 	}
 
 	.private-channels .channel.selected a {
@@ -308,6 +308,10 @@
 
 	.private-channels .channel.selected .icon-friends {
 		background-color: transparent;
+	}
+
+	.search-bar .search-bar-inner, .search-bar input {
+		border-radius: 0;
 	}
 
 /* SCROLLBARS */
@@ -352,8 +356,8 @@
 
 	.theme-dark #friends .friends-header {
 		background-color: var(--second-color);
-		border: none;
 		box-shadow: none;
+		border-bottom: 2px solid var(--third-color);
 	}
 
 	.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
@@ -364,6 +368,16 @@
 		background-color: var(--first-color);
 		border-radius: 0px;
 		color: rgba(100, 100, 100, 1.0);
+	}
+
+	.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary,
+	.theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected,
+	.theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
+		border-radius: 0;
+	}
+
+	#friends .friends-table {
+		z-index: 10;
 	}
 
 /* MISC BUTTONS */
@@ -379,7 +393,8 @@
 		background-color: transparent;
 		padding-left: 22px;
 		padding-top: 20px;
-		border-top: 2px solid rgba(24, 24, 24, 1.0);
+		border-top: 2px solid;
+		border-color: rgba(24, 24, 24, 1.0);
 	}
 
 	.search {
@@ -401,7 +416,7 @@
 	    border: 2px solid rgba(0, 0, 0, 0.2);
 	    border-radius: none;
 	    box-shadow: none;
-	    z-index: 2;
+	    z-index: 0;
 	}
 
 	.popout.popout-bottom-right.no-arrow .messages-popout-wrap {
@@ -419,7 +434,7 @@
 	.messages-popout {
 		background-color: var(--second-color);
 		border: none;
-		border-radius: none;
+		border-radius: 0;
 		box-shadow: none;
 	}
 
@@ -432,7 +447,7 @@
 	.theme-dark .messages-popout-wrap .messages-popout .message-group {
 		background-color: var(--second-color);
 		border: none;
-		border-radius: none;
+		border-radius: 0;
 		box-shadow: none;
 	}
 
