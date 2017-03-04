@@ -789,8 +789,9 @@
 
 	.quick-message {
 		border-radius: 0;
-		background-color: var(--fourth-color);
+		background-color: var(--fifth-color);
 		border: none;
+		color: var(--secondText-color);
 
 	}
 
