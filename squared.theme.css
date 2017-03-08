@@ -428,6 +428,16 @@
 		margin-right: 80px;
 	}
 
+	.header-toolbar .toolbar-badge {
+		border-radius: 0;
+		width: 7px;
+		height: 7px;
+	}
+
+	.theme-dark .header-toolbar .toolbar-badge {
+		border-color: var(--third-color);
+	}
+
 /* POPOUT PINNED MESSAGES */
 
 	.popout.popout-bottom-right.no-arrow {
