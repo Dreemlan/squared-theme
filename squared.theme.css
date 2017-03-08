@@ -1,4 +1,4 @@
-//META{"name":"Squared","description":"It's square.","author":"Dreemlan","version":"1.1"}*//
+//META{"name":"Squared","description":"It's square.","author":"Dreemlan","version":"1.2"}*//
 
 /* FONT */
 
@@ -68,12 +68,12 @@
 	/* FRIENDS ICON TOP LEFT */
 	.guilds-wrapper .guilds .friends-icon {
 		background-color: var(--fifth-color);
-		margin-top: 3px;
 		background-image: url(https://raw.githubusercontent.com/Dreemlan/squared-theme/master/assets/friend-icon.png);
 		background-size: 30px 30px;
 		width: 50px;
 		height: 50px;
-		padding: 0;
+		padding-top: 8px;
+		padding-bottom: 5px;
 	}
 
 	.guilds-wrapper .guilds .guild .guild-inner a {
@@ -99,7 +99,7 @@
 	/* SEPARATOR */
 	.guilds-wrapper .guild-separator:after {
 		background-color: var(--third-color);
-		margin-top: -3px;
+		margin-top: 0px;
 		margin-left:-20px;
 		margin-right: 0px;
 		width: 80px;
@@ -118,6 +118,18 @@
 	.guilds-wrapper .guilds-error {
 		border-radius: 0;
 		background-color: var(--fifth-color);
+	}
+
+	.guilds .guild:first-child {
+    	margin-top: -3px;
+	}
+
+	.titlebar {
+    	left: 80px;
+	}
+
+	.titlebar + div {
+    	margin-left: -80px;
 	}
 
 /* BOTTOM LEFT USER INFO */
@@ -156,6 +168,10 @@
 	.account .status {
 		width: 7px;
 		height: 7px;
+		border-radius: 0;
+	}
+
+	.guilds-wrapper .guilds .guild.unread:before {
 		border-radius: 0;
 	}
 
@@ -406,6 +422,10 @@
 
 	.search {
 		display: none;
+	}
+
+	.win-buttons {
+		margin-right: 80px;
 	}
 
 /* POPOUT PINNED MESSAGES */
