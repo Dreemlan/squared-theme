@@ -1,4 +1,4 @@
-//META{"name":"Squared","description":"It's square.","author":"Dreemlan","version":"1.00"}*//
+//META{"name":"Squared","description":"It's square.","author":"Dreemlan","version":"1.1"}*//
 
 /* FONT */
 
@@ -380,6 +380,13 @@
 		z-index: 10;
 	}
 
+	.avatar-small .status {
+		border-radius: 0;
+		width: 7px;
+		height: 7px;
+		border-color: var(--third-color);
+	}
+
 /* MISC BUTTONS */
 
 	/* HEADER TOOLBAR */
@@ -561,7 +568,12 @@
 
 	/* UPLOAD ICON */
 	.channel-textarea-upload {
-	    display: none;
+		border: none;
+	}
+
+	.theme-dark .channel-textarea-inner .channel-textarea-upload:hover {
+		border: none;
+		background-color: hsla(0, 0%, 100%, 0.0);
 	}
 
 	/* MESSAGE BOX INNER */
