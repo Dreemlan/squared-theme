@@ -1,4 +1,4 @@
-//META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan","version":"1.6"}*//
+//META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan","version":"1.7"}*//
 
 /* FONT */
 	body {
@@ -1327,6 +1327,31 @@
 	.theme-dark .chat .title-wrap .topic .mention:hover {
 		background-color: rgba(0, 0, 0, 0.3);
 	}
+
+/* BLOCKED MESSAGES */
+
+		.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn {
+			background-color: var(--second-color);
+			border: 1px solid rgba(0, 0, 0, 0.3);
+		}
+
+		.theme-dark .friends-table .messages .message-group-blocked, .theme-dark .messages-wrapper .messages .message-group-blocked {
+			border: none;
+		}
+
+		.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, .theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {
+			background-color: var(--fourth-color);
+			border: 1px solid rgba(0, 0, 0, 0.3);
+		}
+
+		.theme-dark .message-group:not(.has-divider), {
+			background-color: none;
+			border: none;
+		}
+
+		.theme-dark .friends-table .messages .message-group-blocked.revealed, .theme-dark .messages-wrapper .messages .message-group-blocked.revealed {
+			background-color: var(--second-color);
+		}
 
 
 
