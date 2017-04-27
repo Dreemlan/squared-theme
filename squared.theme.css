@@ -1,4 +1,4 @@
-//META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan","version":"1.7"}*//
+//META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan","version":"1.8"}*//
 
 /* FONT */
 	body {
@@ -148,7 +148,7 @@
 
 	/* BUTTON GROUP*/
 	.account .btn-group {
-	    border: none; 
+	    border: none;
 	}
 
 	/* BUTTONS */
@@ -176,24 +176,26 @@
 
 /* CONNECTED VOICE */
 
-	#voice-connection {
+	#rtc-connection {
 	    background-color: var(--second-color);
 	    border-right: 2px solid rgba(0, 0, 0, 0.2);
 	}
 
-	#voice-connection .btn-group {
+	#rtc-connection .btn-group {
 	    border: none;
 	}
 
-	#voice-connection .btn-info {
+	#rtc-connection .btn-info {
 	    display: none;
 	}
 
-	#voice-connection .btn-disconnect {
+	#rtc-connection .btn-disconnect {
 	    background-color: var(--second-color);
 	    box-shadow: none;
 	    border: none;
 	}
+
+
 
 /* TEXT/VOICE CHANNEL */
 
@@ -287,7 +289,7 @@
 	}
 
 	.private-channels .search-bar {
-	    background-color: var(--second-color);  
+	    background-color: var(--second-color);
 		border-radius: 0px;
 		border: none;
 	}
@@ -572,7 +574,7 @@
 	    right: 0;
 	    left: auto !important;
 	    transform: none !important;
-	    
+
 	    background-color: var(--second-color);
 	    border: 2px solid rgba(0, 0, 0, 0.2);
 	    border-radius: none;
@@ -785,7 +787,7 @@
 		width: 100%;
 	}
 
-	
+
 	.theme-dark .chat form {
 		position: absolute;
 		bottom: 0px;
@@ -800,7 +802,7 @@
 		box-shadow: none;
 		z-index: 5;
 	}
-	
+
 
 	.theme-dark .chat .title-wrap .topic {
 		margin-right: 370px;
@@ -1361,7 +1363,7 @@
 		--first-color: rgba(35, 35, 35, 1.0);
 		--second-color: rgba(30, 30, 30, 1.0);
 		--third-color: rgba(25, 25, 25, 1.0);
-		--fourth-color: rgba(20, 20, 20, 1.0);  
+		--fourth-color: rgba(20, 20, 20, 1.0);
 		--fifth-color: rgba(15, 15, 15, 1.0);
 		--scrollbar-color: rgba(50, 50, 50, 1.0);
 
