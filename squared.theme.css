@@ -1,4 +1,5 @@
-//META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan","version":"1.8"}*//
+//META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan","version":"1.9"}*//
+
 
 /* FONT */
 	body {
@@ -198,6 +199,56 @@
 
 
 /* TEXT/VOICE CHANNEL */
+
+	.nameDefault-Lnjrwm {
+		color: var(--thirdText-color);	
+	}
+	
+	.wrapper-fDmxzK {
+		height: 28px;	
+	}
+
+	.avatarDefault-3jtQoc, .avatarSpeaking-3teDH6 {
+		border-radius: 0;
+	}
+	
+	.nameDefault-1I0lx8 {
+		color: var(--thirdText-color);
+        font-size: 14px;
+	}
+
+	.content-2mSKOj {
+        background-color: var(--third-color);
+		border-radius: 0;
+	}
+
+	.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+		color: var(--fourthText-color);
+        font-size: 14px;
+	}
+
+	.header-1tSljs {
+        background-color: var(--second-color);
+        margin-top: 2px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	}
+
+	.channels-wrap {
+		background-color: var(--second-color);
+	}
+
+	.container-iksrDt {
+        background: none;
+	}
+	
+	.container-3lnMWU {
+        background: none;
+        border-bottom: none;
+	}
+
+	.container-RYiLUQ {
+    	background-color: var(--third-color);
+	}
 
 	/* SERVER TITLE */
 	.guild-header header {
