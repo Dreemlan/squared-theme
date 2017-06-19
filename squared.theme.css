@@ -1,4 +1,4 @@
-//META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan","version":"1.9"}*//
+//META{"name":"Squared","description":"A square, dark, minimal, theme.","author":"Dreemlan","version":"2.0"}*//
 
 
 /* FONT */
@@ -407,6 +407,10 @@
 	}
 
 /* FRIENDS LIST */
+
+	.private-channels {
+        background-color: var(--third-color);
+	}
 
 	#friends .friends-table .friends-table-body {
 		background-color: var(--first-color);
@@ -899,6 +903,10 @@
 	}
 
 /* MEMBER LIST */
+
+	.theme-dark .channel-members {
+		background-color: var(--third-color);
+	}
 
 	.scroller.channel-members {
 	    background-color: var(--third-color);
