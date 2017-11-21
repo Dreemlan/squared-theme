@@ -777,6 +777,13 @@
 	    display: none;
 	}
 
+	/* EMOJI CHOICE OPTIONS */
+	.emoji-picker .scroller .emoji-item {
+	    background-position: 50%!important;
+	    background-repeat: no-repeat!important;
+	    background-size: contain!important;
+	}
+
 	/* UPLOAD ICON */
 	.channel-textarea-upload {
 		border: none;
