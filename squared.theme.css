@@ -250,6 +250,11 @@
     	background-color: var(--third-color);
 	}
 
+	.containerDefault-7RImuF {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	}
+
 	/* SERVER TITLE */
 	.guild-header header {
 	    background-color: var(--second-color);
