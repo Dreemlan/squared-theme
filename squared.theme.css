@@ -494,8 +494,8 @@
 
 	.search {
 		position: fixed;
-		top: 15px;
-		right: 115px;
+		top: 32px;
+		right: 215px;
 	}
 
 	.theme-dark .search .search-bar {
